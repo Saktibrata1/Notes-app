@@ -1,0 +1,60 @@
+.notes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.notes-header h2 {
+  color: #333;
+}
+
+.notes-list {
+  margin-top: 20px;
+}
+
+.note-item {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.note-item h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.note-item p {
+  color: #777;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.edit-icon,
+.delete-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #777;
+  transition: color 0.3s ease;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  color: #333;
+}
+
+.logout-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #777;
+  transition: color 0.3s ease;
+}
+
+.logout-icon:hover {
+  color: #333;
+}
